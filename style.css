@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.user{
+    padding: 20px;
+}
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+*>input{
+    border: 0px;
+    text-align: center;
+    font-size: larger;
+}
+
+*>textarea{
+    border: 0px;
+    text-align: center;
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fname{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+div>hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+.summaryBox, .skillsBox, .experienceBox{
+    border-top: 1px solid black;
+}
+
+.company{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.companyName>input, .roleName>input{
+    width: 500px;
+    text-align: left;
+}
+.companyLocation>input, .roleDuration>input{
+    width: 500px;
+    text-align: right;
+}
+.roleName>input{
+    text-align: left;
+}
+
+.skillsBox>input{
+    text-align: left;
+}
